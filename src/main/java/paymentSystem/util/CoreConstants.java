@@ -1,0 +1,73 @@
+package paymentSystem.util;
+
+public class CoreConstants {
+	public enum ETAT_COMPTE{ACTIF,DESACTIVE};
+	public enum TYPE_RUBRIQUE{GAIN,PRIME, INDEMNITE,COTISATION, TAXE };
+	public static final String ORIENTATION_PORTRAIT="portrait";
+	public static final String ORIENTATION_PAYSAGE="paysage";
+	public static final String AUTHENTICATION_SERVICE="AuthenticationService";
+	public static String TICKET_KEY_NAME = "ticket";
+	public static final String SALAIRE_DE_BASE="salairedebase";
+	public static final String SALAIRE_BRUT_TAXABLE="salairebruttaxable";
+	public static final String REVENU_NET_IMPOSABLE="revenunetimposable";
+	public static final String IRPP="irpp";
+	public static final String SALAIRE_INT_TAXABLE="salaireinttaxable";
+	public static final String SALAIRE_NET_TAXABLE="salairenettaxable";
+	public static final String SALSALAIRE_BRUTAIRE_NET="salairenet";
+	public static final String SALAIRE_BRUT="salairetotalbrut";
+	public static final String SALAIRE_COTISABLE="salairecotisable";
+	public static final String ANCIENNETE="nbanneesanciennete";
+	public static final String TREIZIEME_MOIS="treiziememois";
+	public static final String NBRE_ABSENCES="nbabsences";
+	public static final String NBRE_ENFANTS="nbenfants";
+	public static final String CODE_SALAIRE_DE_BASE="1371288006660";
+	public static final String NBRE_HEURES_SUPP_20="nbheuressup20";
+	public static final String NBRE_HEURES_SUPP_30="nbheuressup30";
+	public static final String NBRE_HEURES_SUPP_40="nbheuressup40";	
+	public static final String NBRE_HEURES_SUPP_50="nbheuressup50";
+	public static final String ORDRE_ALPHABETIQUE="alphabetique";
+	public static final String ORDRE_HIERARCHIQUE="hierarchique";
+	public static final String CODE_IRNC = "1634122335033" ;
+	public static final String CODE_IRPP="1371288777687";
+	public static final String CODE_CAC="1371288777875";
+	public static final String CODE_TDL="1371288777963";
+	public static final String CODE_CFC_PATRONAL="1371288778246";
+	public static final String CODE_CFC_SALARIAL="1371288778037";
+	public static final String CODE_RAV="1371288778124";
+	public static final String CODE_ACCIDENT_TRAVAIL="1371288778592";
+	public static final String CODE_PVID_SALARIALE="1371288778178";
+	public static final String CODE_PVID_PATRONALE="1371288778661";
+	public static final String CODE_ALLOCATIONS_FAMILIALES="1371288778522";
+	public static final String CODE_FNE="1371288778311";
+	public static final String CODE_SALAIRE_BASE="1371288006660";
+	public static final String CODE_HEURES_SUPP="1371288006721";
+	public static final String CODE_PRIME_ANCIENNETE="1371288006977";
+	public static final String CODE_PONDERATION="1371288007033";
+	public static final String CODE_INDEMNITE_REPRESENTATION="1371288007099";
+	public static final String CODE_INDEMNITE_LOGEMENT="1371288007438";
+	public static final String CODE_INDEMNITE_TRANSPORT="1371288007500";
+	public static final String CODE_TELEPHONE="1371288007553";
+	public static final String CODE_CARBURANT="1371288007620";
+	public static final String CODE_EAU="1371288007847";
+	public static final String CODE_ELECTRICITE="1371288007911";
+	public static final String CODE_PRIME_INSTALLATION="1371288008208";
+	public static final String CODE_PRIME_AMEUBLEMENT="1371288008275";
+	public static final String CODE_RAPPEL="1371288008341";
+	public static final String CODE_PRIME_TECHNICITE="1371288007378";
+	public static final String CODE_PRIME_FIN_ANNEE="1371288008623";
+	public static final String CODE_PRIME_TREIZIEME_MOIS ="1382946998698";
+	public static final String CODE_PRIME_GRATIFICATION_MEDAILLE="1371288008685";
+	public static final String CODE_INDEMNITE_DEPLACEMENT="1371288008752";
+	public static final String CODE_FONCTIONNEMENT_HOTEL="1371288008819";
+	public static final String CODE_PRIME_RESPONSABILITE="1371288008886";
+	public static final String CODE_MAJORATION_INTERNE="1371288778768";
+	public static final String CODE_ABSENCES="1371288778817";
+	public static final String CODE_DOMESTIQUE = "1371288008098" ;
+	public static final String CODE_VEHICULE = "1371288008035" ;
+
+	public static final String CODE_RANG_DG = "1371134011934" ;
+	public static final String CODE_RANG_DGA = "1371134011995" ;
+	public static final String CODE_RANG_DIRECTEUR = "1371134012044" ;
+}
+
+
